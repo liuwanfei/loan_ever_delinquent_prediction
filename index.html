@@ -11803,7 +11803,7 @@ or-link" href="#1.2-Metrics">&#182;</a></h3><p>The key metrics used in this proj
 <li><strong>Origination Channel</strong>: The channel which a mortgage loan is originated from are "Retail", "Broker" or "Correspondent".<ul>
 <li><em>Retail:</em> A mortgage loan for which the mortgage loan seller takes the mortgage loan application and then processes, underwrites, funds and delivers the mortgage loan to Fannie Mae.</li>
 <li><em>Correspondent:</em> A mortgage loan that is originated by a party other than a mortgage loan seller and is then sold to a mortgage loan seller.</li>
-<li><em>Broker:</em> A mortgage loan that is originated under circumstances where a person or firm other than a mortgage loan seller or lender correspondent is acting as a “broker” and receives a commission for bringing together a borrower and a lender.</li>
+<li><em>Broker:</em> A mortgage loan that is originated under circumstances where a person or firm other than a mortgage loan seller or lender correspondent is acting as a "broker" and receives a commission for bringing together a borrower and a lender.</li>
 </ul>
 </li>
 <li><strong>Occupancy Status</strong>: The status includes "Principal Residence", "Second Home" and "Investment".<ul>
@@ -12020,7 +12020,7 @@ Features such as FICO, LTV and DTI have been transformed into corresponding buck
 <li>In machine learning, loss function is used to measure the degree of fit. It represents the price paid for inaccurately predicting a class(s).</li>
 <li><p>Below are some commonly used loss functions for classification problems: <br></p>
 <p><a href="http://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html"><strong><em>Logistic Loss:</em></strong></a> Log Loss measures the performance of a classification model whose output is a probability value between 0 and 1. The loss increases as the predicted probability diverges from the actual label. For binary classification problem, the log loss function is ${-}(y\cdot log(p)+(1 {-} y)\cdot \log (1 \mathord{-} p))$. The example of algorithm which is based on log loss function is Logistic Regression. <br>
- <strong><em>Hinge Loss:</em></strong> The hinge loss is used for "maximum-margin" classification, most notably for support vector machines (SVMs). For an intended output t = ±1 and a classifier score y, the hinge loss of the prediction y is defined as $l ( y ) = max ( 0 , {1 \mathord{-} t\cdot y} ) $. <br>
+ <strong><em>Hinge Loss:</em></strong> The hinge loss is used for "maximum-margin" classification, most notably for support vector machines (SVMs). For an intended output t = 1 or -1 and a classifier score y, the hinge loss of the prediction y is defined as $l ( y ) = max ( 0 , {1 \mathord{-} t\cdot y} ) $. <br>
  <a href="https://stats.stackexchange.com/questions/284028/0-1-loss-function-explanation"><strong><em>0/1 Loss:</em></strong></a> This is one of the loss function which does not have convex shape $\min_\theta\sum_i L_{0/1}(\theta^Tx)$. We define $L_{0/1}(\theta^Tx) =1$ if $y = \theta^Tx$, and $L_{0/1}(\theta^Tx) =0$ if $y \neq\theta^Tx$. <br></p>
 </li>
 </ul>
